@@ -41,15 +41,15 @@ janela.geometry("600x400")
 tk.Label(janela, text="Resultado", font=("Arial", 20)).pack()
 
 #label para mostrar o resultado
-tk.Label(janela, text=f"Equipe 1 {equipe1}", font=("Arial", 20)).pack()
+tk.Label(janela, text=f"Equipe 1: {equipe1[0]}, {equipe1[1]}, {equipe1[2]}, {equipe1[3]}", font=("Arial", 20)).pack()
 
 #label para mostrar o resultado
-tk.Label(janela, text="Equipe 2", font=("Arial", 20)).pack()
+tk.Label(janela, text=f"Equipe 2 {equipe2}", font=("Arial", 20)).pack()
 
 #label para mostrar o resultado
-tk.Label(janela, text="Equipe 3", font=("Arial", 20)).pack()
+tk.Label(janela, text=f"Equipe 3 {equipe3}", font=("Arial", 20)).pack()
 
 #label para mostrar o resultado
-tk.Label(janela, text="Equipe 4", font=("Arial", 20)).pack()
+tk.Label(janela, text=f"Equipe 4 {equipe4}", font=("Arial", 20)).pack()
 
 janela.mainloop()
